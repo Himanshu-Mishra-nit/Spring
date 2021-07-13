@@ -1,0 +1,18 @@
+package com.in28minutes.spring.basics;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class SpringIn5StepsApplication {
+
+	public static void main(String[] args) {
+		BinarySearchImpl binary = new BinarySearchImpl(new QuickSortAlgorithm());
+		int result = binary.binarySearch(new int[] {12,4,3}, 3);
+		System.out.println(result);
+		
+		
+		SpringApplication.run(SpringIn5StepsApplication.class, args);
+	}
+
+}
