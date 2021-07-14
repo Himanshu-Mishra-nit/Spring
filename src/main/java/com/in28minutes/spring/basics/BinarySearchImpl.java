@@ -10,11 +10,25 @@ public class BinarySearchImpl {
 	
 	
 	
-	public BinarySearchImpl(SortAlgorithm sortAlgorithm) {
-		super();
-		this.sortAlgorithm = sortAlgorithm;
-		System.out.println("sort algo");
-	}
+
+
+
+
+	
+
+
+
+
+
+
+
+	//public void setSortAlgorithm(SortAlgorithm sortAlgorithm) {
+	//	this.sortAlgorithm = sortAlgorithm;
+	//}
+
+
+
+
 
 
 
