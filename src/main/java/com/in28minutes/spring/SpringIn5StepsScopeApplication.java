@@ -19,6 +19,7 @@ private static Logger LOGGER = LoggerFactory.getLogger(SpringIn5StepsScopeApplic
 		
 		LOGGER.info("{}", personDao);
 		LOGGER.info("{}", personDao.getJdbcConnection());
+		LOGGER.info("{}", personDao.getJdbcConnection());
 		LOGGER.info("{}",personDao1);
 		LOGGER.info("{}", personDao1.getJdbcConnection());
 		
