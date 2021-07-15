@@ -31,13 +31,5 @@ public class BinarySearchImpl {
 		return 3;
 	}
 	
-	@PostConstruct
-	public void postConstruct() {
-		LOGGER.info("postConstruct");
-	}
 	
-	@PreDestroy
-	public void preDestroy() {
-		LOGGER.info("Pre Destroy");
-	}
 }
