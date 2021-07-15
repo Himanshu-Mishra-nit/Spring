@@ -7,7 +7,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 import com.in28minutes.spring.xml.XmlPersonDAO;
 
 @Configuration
-@ComponentScan("com.in28minutes.spring.basics")
+@ComponentScan
 public class SpringIn5StepsXmlContextApplication {
 
 	public static void main(String[] args) {
